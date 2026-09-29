@@ -1,0 +1,38 @@
+{
+    "1" : {
+        "name" : "Tajweed",
+        "riwaya" : "hafs", 
+        "base_url" : "https://cdn.kuttab-othman.workers.dev/Tajweed",
+        "bbox_url" : "https://cdn.kuttab-othman.workers.dev/Tajweed/book_Tajweed_bbox.json",
+        "bbox_reversed_url" : "https://cdn.kuttab-othman.workers.dev/Tajweed/book_Tajweed_bbox_reversed.json",
+        "bbox_norm_url" : "https://cdn.kuttab-othman.workers.dev/Tajweed/book_Tajweed_bbox_norm.json",
+        "bbox_reversed_norm_url" : "https://cdn.kuttab-othman.workers.dev/Tajweed/book_Tajweed_bbox_reversed_norm.json",
+        "first_page": 1,
+        "last_page": 604,
+        "theme_color": "#FFFFD7"
+    },
+    "2" : {
+        "name" : "MedinaOld",
+        "riwaya" : "hafs", 
+        "base_url" : "https://cdn.kuttab-othman.workers.dev/MedinaOld",
+        "bbox_url" : "https://cdn.kuttab-othman.workers.dev/MedinaOld/book_MedinaOld_bbox.json",
+        "bbox_reversed_url" : "https://cdn.kuttab-othman.workers.dev/MedinaOld/book_MedinaOld_bbox_reversed.json",
+        "bbox_norm_url" : "https://cdn.kuttab-othman.workers.dev/MedinaOld/book_MedinaOld_bbox_norm.json",
+        "bbox_reversed_norm_url" : "https://cdn.kuttab-othman.workers.dev/MedinaOld/book_MedinaOld_bbox_reversed_norm.json",
+        "first_page": 4,
+        "last_page": 605,
+        "theme_color": "#FEEFD5"
+    },
+    "3" : {
+        "name" : "Warsh1",
+        "riwaya" : "warsh", 
+        "base_url" : "https://cdn.kuttab-othman.workers.dev/Warsh1",
+        "bbox_url" : "https://cdn.kuttab-othman.workers.dev/Warsh1/book_Warsh1_bbox.json",
+        "bbox_reversed_url" : "https://cdn.kuttab-othman.workers.dev/Warsh1/book_Warsh1_bbox_reversed.json",
+        "bbox_norm_url" : "https://cdn.kuttab-othman.workers.dev/Warsh1/book_Warsh1_bbox_norm.json",
+        "bbox_reversed_norm_url" : "https://cdn.kuttab-othman.workers.dev/Warsh1/book_Warsh1_bbox_reversed_norm.json",
+        "first_page": 4,
+        "last_page": 559,
+        "theme_color": "#FFFFFF"
+    }
+}

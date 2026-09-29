@@ -1,0 +1,688 @@
+{
+    "quran": {
+        "1": {
+            "name": "الفاتحة",
+            "name_en": "Al-Fatiha",
+            "location": "makka",
+            "numberOfAyat": 7
+        },
+        "2": {
+            "name": "البقرة",
+            "name_en": "Al-Baqarah",
+            "location": "madina",
+            "numberOfAyat": 286
+        },
+        "3": {
+            "name": "آل عمران",
+            "name_en": "Al-Imran",
+            "location": "madina",
+            "numberOfAyat": 200
+        },
+        "4": {
+            "name": "النساء",
+            "name_en": "An-Nisa",
+            "location": "madina",
+            "numberOfAyat": 176
+        },
+        "5": {
+            "name": "المائدة",
+            "name_en": "Al-Ma'idah",
+            "location": "madina",
+            "numberOfAyat": 120
+        },
+        "6": {
+            "name": "الأنعام",
+            "name_en": "Al-Anam",
+            "location": "makka",
+            "numberOfAyat": 165
+        },
+        "7": {
+            "name": "الأعراف",
+            "name_en": "Al-A'raf",
+            "location": "makka",
+            "numberOfAyat": 206
+        },
+        "8": {
+            "name": "الأنفال",
+            "name_en": "Al-Anfal",
+            "location": "madina",
+            "numberOfAyat": 75
+        },
+        "9": {
+            "name": "التوبة",
+            "name_en": "At-Taubah",
+            "location": "madina",
+            "numberOfAyat": 129
+        },
+        "10": {
+            "name": "يونس",
+            "name_en": "Yunus",
+            "location": "makka",
+            "numberOfAyat": 109
+        },
+        "11": {
+            "name": "هود",
+            "name_en": "Hud",
+            "location": "makka",
+            "numberOfAyat": 123
+        },
+        "12": {
+            "name": "يوسف",
+            "name_en": "Yusuf",
+            "location": "makka",
+            "numberOfAyat": 111
+        },
+        "13": {
+            "name": "الرعد",
+            "name_en": "Ar-Ra'd",
+            "location": "madina",
+            "numberOfAyat": 43
+        },
+        "14": {
+            "name": "إبراهيم",
+            "name_en": "Ibrahim",
+            "location": "makka",
+            "numberOfAyat": 52
+        },
+        "15": {
+            "name": "الحجر",
+            "name_en": "Al-Hijr",
+            "location": "makka",
+            "numberOfAyat": 99
+        },
+        "16": {
+            "name": "النحل",
+            "name_en": "An-Nahl",
+            "location": "makka",
+            "numberOfAyat": 128
+        },
+        "17": {
+            "name": "الإسراء",
+            "name_en": "Al-Isra",
+            "location": "makka",
+            "numberOfAyat": 111
+        },
+        "18": {
+            "name": "الكهف",
+            "name_en": "Al-Kahf",
+            "location": "makka",
+            "numberOfAyat": 110
+        },
+        "19": {
+            "name": "مريم",
+            "name_en": "Maryam",
+            "location": "makka",
+            "numberOfAyat": 98
+        },
+        "20": {
+            "name": "طه",
+            "name_en": "Ta-Ha",
+            "location": "makka",
+            "numberOfAyat": 135
+        },
+        "21": {
+            "name": "الأنبياء",
+            "name_en": "Al-Anbiya",
+            "location": "makka",
+            "numberOfAyat": 112
+        },
+        "22": {
+            "name": "الحج",
+            "name_en": "Al-Hajj",
+            "location": "madina",
+            "numberOfAyat": 78
+        },
+        "23": {
+            "name": "المؤمنون",
+            "name_en": "Al-Mu'minun",
+            "location": "makka",
+            "numberOfAyat": 118
+        },
+        "24": {
+            "name": "النور",
+            "name_en": "An-Nur",
+            "location": "madina",
+            "numberOfAyat": 64
+        },
+        "25": {
+            "name": "الفرقان",
+            "name_en": "Al-Furqan",
+            "location": "makka",
+            "numberOfAyat": 77
+        },
+        "26": {
+            "name": "الشعراء",
+            "name_en": "Ash-Shu'ara",
+            "location": "makka",
+            "numberOfAyat": 227
+        },
+        "27": {
+            "name": "النمل",
+            "name_en": "An-Naml",
+            "location": "makka",
+            "numberOfAyat": 93
+        },
+        "28": {
+            "name": "القصص",
+            "name_en": "Al-Qasas",
+            "location": "makka",
+            "numberOfAyat": 88
+        },
+        "29": {
+            "name": "العنكبوت",
+            "name_en": "Al-Ankabut",
+            "location": "makka",
+            "numberOfAyat": 69
+        },
+        "30": {
+            "name": "الروم",
+            "name_en": "Ar-Rum",
+            "location": "makka",
+            "numberOfAyat": 60
+        },
+        "31": {
+            "name": "لقمان",
+            "name_en": "Luqman",
+            "location": "makka",
+            "numberOfAyat": 34
+        },
+        "32": {
+            "name": "السجدة",
+            "name_en": "As-Sajdah",
+            "location": "makka",
+            "numberOfAyat": 30
+        },
+        "33": {
+            "name": "الأحزاب",
+            "name_en": "Al-Ahzab",
+            "location": "madina",
+            "numberOfAyat": 73
+        },
+        "34": {
+            "name": "سبأ",
+            "name_en": "Saba",
+            "location": "makka",
+            "numberOfAyat": 54
+        },
+        "35": {
+            "name": "فاطر",
+            "name_en": "Fatir",
+            "location": "makka",
+            "numberOfAyat": 45
+        },
+        "36": {
+            "name": "يس",
+            "name_en": "Ya-Sin",
+            "location": "makka",
+            "numberOfAyat": 83
+        },
+        "37": {
+            "name": "الصافات",
+            "name_en": "As-Saffat",
+            "location": "makka",
+            "numberOfAyat": 182
+        },
+        "38": {
+            "name": "ص",
+            "name_en": "Sad",
+            "location": "makka",
+            "numberOfAyat": 88
+        },
+        "39": {
+            "name": "الزمر",
+            "name_en": "Az-Zumar",
+            "location": "makka",
+            "numberOfAyat": 75
+        },
+        "40": {
+            "name": "غافر",
+            "name_en": "Ghafir",
+            "location": "makka",
+            "numberOfAyat": 85
+        },
+        "41": {
+            "name": "فصلت",
+            "name_en": "Fussilat",
+            "location": "makka",
+            "numberOfAyat": 54
+        },
+        "42": {
+            "name": "الشورى",
+            "name_en": "Ash-Shura",
+            "location": "makka",
+            "numberOfAyat": 53
+        },
+        "43": {
+            "name": "الزخرف",
+            "name_en": "Az-Zukhruf",
+            "location": "makka",
+            "numberOfAyat": 89
+        },
+        "44": {
+            "name": "الدخان",
+            "name_en": "Ad-Dukhan",
+            "location": "makka",
+            "numberOfAyat": 59
+        },
+        "45": {
+            "name": "الجاثية",
+            "name_en": "Al-Jathiyah",
+            "location": "makka",
+            "numberOfAyat": 37
+        },
+        "46": {
+            "name": "الأحقاف",
+            "name_en": "Al-Ahqaf",
+            "location": "makka",
+            "numberOfAyat": 35
+        },
+        "47": {
+            "name": "محمد",
+            "name_en": "Muhammad",
+            "location": "madina",
+            "numberOfAyat": 38
+        },
+        "48": {
+            "name": "الفتح",
+            "name_en": "Al-Fath",
+            "location": "madina",
+            "numberOfAyat": 29
+        },
+        "49": {
+            "name": "الحجرات",
+            "name_en": "Al-Hujurat",
+            "location": "madina",
+            "numberOfAyat": 18
+        },
+        "50": {
+            "name": "ق",
+            "name_en": "Qaf",
+            "location": "makka",
+            "numberOfAyat": 45
+        },
+        "51": {
+            "name": "الذاريات",
+            "name_en": "Adh-Dhariyat",
+            "location": "makka",
+            "numberOfAyat": 60
+        },
+        "52": {
+            "name": "الطور",
+            "name_en": "At-Tur",
+            "location": "makka",
+            "numberOfAyat": 49
+        },
+        "53": {
+            "name": "النجم",
+            "name_en": "An-Najm",
+            "location": "makka",
+            "numberOfAyat": 62
+        },
+        "54": {
+            "name": "القمر",
+            "name_en": "Al-Qamar",
+            "location": "makka",
+            "numberOfAyat": 55
+        },
+        "55": {
+            "name": "الرحمن",
+            "name_en": "Ar-Rahman",
+            "location": "madina",
+            "numberOfAyat": 78
+        },
+        "56": {
+            "name": "الواقعة",
+            "name_en": "Al-Waqi'ah",
+            "location": "makka",
+            "numberOfAyat": 96
+        },
+        "57": {
+            "name": "الحديد",
+            "name_en": "Al-Hadid",
+            "location": "madina",
+            "numberOfAyat": 29
+        },
+        "58": {
+            "name": "المجادلة",
+            "name_en": "Al-Mujadila",
+            "location": "madina",
+            "numberOfAyat": 22
+        },
+        "59": {
+            "name": "الحشر",
+            "name_en": "Al-Hashr",
+            "location": "madina",
+            "numberOfAyat": 24
+        },
+        "60": {
+            "name": "الممتحنة",
+            "name_en": "Al-Mumtahanah",
+            "location": "madina",
+            "numberOfAyat": 13
+        },
+        "61": {
+            "name": "الصف",
+            "name_en": "As-Saff",
+            "location": "madina",
+            "numberOfAyat": 14
+        },
+        "62": {
+            "name": "الجمعة",
+            "name_en": "Al-Jumu'ah",
+            "location": "madina",
+            "numberOfAyat": 11
+        },
+        "63": {
+            "name": "المنافقون",
+            "name_en": "Al-Munafiqun",
+            "location": "madina",
+            "numberOfAyat": 11
+        },
+        "64": {
+            "name": "التغابن",
+            "name_en": "At-Taghabun",
+            "location": "madina",
+            "numberOfAyat": 18
+        },
+        "65": {
+            "name": "الطلاق",
+            "name_en": "At-Talaq",
+            "location": "madina",
+            "numberOfAyat": 12
+        },
+        "66": {
+            "name": "التحريم",
+            "name_en": "At-Tahrim",
+            "location": "madina",
+            "numberOfAyat": 12
+        },
+        "67": {
+            "name": "الملك",
+            "name_en": "Al-Mulk",
+            "location": "makka",
+            "numberOfAyat": 30
+        },
+        "68": {
+            "name": "القلم",
+            "name_en": "Al-Qalam",
+            "location": "makka",
+            "numberOfAyat": 52
+        },
+        "69": {
+            "name": "الحاقة",
+            "name_en": "Al-Haqqah",
+            "location": "makka",
+            "numberOfAyat": 52
+        },
+        "70": {
+            "name": "المعارج",
+            "name_en": "Al-Ma'arij",
+            "location": "makka",
+            "numberOfAyat": 44
+        },
+        "71": {
+            "name": "نوح",
+            "name_en": "Nuh",
+            "location": "makka",
+            "numberOfAyat": 28
+        },
+        "72": {
+            "name": "الجن",
+            "name_en": "Al-Jinn",
+            "location": "makka",
+            "numberOfAyat": 28
+        },
+        "73": {
+            "name": "المزمل",
+            "name_en": "Al-Muzzammil",
+            "location": "makka",
+            "numberOfAyat": 20
+        },
+        "74": {
+            "name": "المدثر",
+            "name_en": "Al-Muddaththir",
+            "location": "makka",
+            "numberOfAyat": 56
+        },
+        "75": {
+            "name": "القيامة",
+            "name_en": "Al-Qiyamah",
+            "location": "makka",
+            "numberOfAyat": 40
+        },
+        "76": {
+            "name": "الإنسان",
+            "name_en": "Al-Insan",
+            "location": "madina",
+            "numberOfAyat": 31
+        },
+        "77": {
+            "name": "المرسلات",
+            "name_en": "Al-Mursalat",
+            "location": "makka",
+            "numberOfAyat": 50
+        },
+        "78": {
+            "name": "النبأ",
+            "name_en": "An-Naba",
+            "location": "makka",
+            "numberOfAyat": 40
+        },
+        "79": {
+            "name": "النازعات",
+            "name_en": "An-Nazi'at",
+            "location": "makka",
+            "numberOfAyat": 46
+        },
+        "80": {
+            "name": "عبس",
+            "name_en": "Abasa",
+            "location": "makka",
+            "numberOfAyat": 42
+        },
+        "81": {
+            "name": "التكوير",
+            "name_en": "At-Takwir",
+            "location": "makka",
+            "numberOfAyat": 29
+        },
+        "82": {
+            "name": "الانفطار",
+            "name_en": "Al-Infitar",
+            "location": "makka",
+            "numberOfAyat": 19
+        },
+        "83": {
+            "name": "المطففين",
+            "name_en": "Al-Mutaffifin",
+            "location": "makka",
+            "numberOfAyat": 36
+        },
+        "84": {
+            "name": "الانشقاق",
+            "name_en": "Al-Inshiqaq",
+            "location": "makka",
+            "numberOfAyat": 25
+        },
+        "85": {
+            "name": "البروج",
+            "name_en": "Al-Buruj",
+            "location": "makka",
+            "numberOfAyat": 22
+        },
+        "86": {
+            "name": "الطارق",
+            "name_en": "At-Tariq",
+            "location": "makka",
+            "numberOfAyat": 17
+        },
+        "87": {
+            "name": "الأعلى",
+            "name_en": "Al-Ala",
+            "location": "makka",
+            "numberOfAyat": 19
+        },
+        "88": {
+            "name": "الغاشية",
+            "name_en": "Al-Ghashiyah",
+            "location": "makka",
+            "numberOfAyat": 26
+        },
+        "89": {
+            "name": "الفجر",
+            "name_en": "Al-Fajr",
+            "location": "makka",
+            "numberOfAyat": 30
+        },
+        "90": {
+            "name": "البلد",
+            "name_en": "Al-Balad",
+            "location": "makka",
+            "numberOfAyat": 20
+        },
+        "91": {
+            "name": "الشمس",
+            "name_en": "Ash-Shams",
+            "location": "makka",
+            "numberOfAyat": 15
+        },
+        "92": {
+            "name": "الليل",
+            "name_en": "Al-Lail",
+            "location": "makka",
+            "numberOfAyat": 21
+        },
+        "93": {
+            "name": "الضحى",
+            "name_en": "Ad-Duha",
+            "location": "makka",
+            "numberOfAyat": 11
+        },
+        "94": {
+            "name": "الشرح",
+            "name_en": "Ash-Sharh",
+            "location": "makka",
+            "numberOfAyat": 8
+        },
+        "95": {
+            "name": "التين",
+            "name_en": "At-Tin",
+            "location": "makka",
+            "numberOfAyat": 8
+        },
+        "96": {
+            "name": "العلق",
+            "name_en": "Al-Alaq",
+            "location": "makka",
+            "numberOfAyat": 19
+        },
+        "97": {
+            "name": "القدر",
+            "name_en": "Al-Qadr",
+            "location": "makka",
+            "numberOfAyat": 5
+        },
+        "98": {
+            "name": "البينة",
+            "name_en": "Al-Bayyina",
+            "location": "madina",
+            "numberOfAyat": 8
+        },
+        "99": {
+            "name": "الزلزلة",
+            "name_en": "Az-Zalzalah",
+            "location": "madina",
+            "numberOfAyat": 8
+        },
+        "100": {
+            "name": "العاديات",
+            "name_en": "Al-Adiyat",
+            "location": "makka",
+            "numberOfAyat": 11
+        },
+        "101": {
+            "name": "القارعة",
+            "name_en": "Al-Qari'ah",
+            "location": "makka",
+            "numberOfAyat": 11
+        },
+        "102": {
+            "name": "التكاثر",
+            "name_en": "At-Takathur",
+            "location": "makka",
+            "numberOfAyat": 8
+        },
+        "103": {
+            "name": "العصر",
+            "name_en": "Al-Asr",
+            "location": "makka",
+            "numberOfAyat": 3
+        },
+        "104": {
+            "name": "الهمزة",
+            "name_en": "Al-Humazah",
+            "location": "makka",
+            "numberOfAyat": 9
+        },
+        "105": {
+            "name": "الفيل",
+            "name_en": "Al-Fil",
+            "location": "makka",
+            "numberOfAyat": 5
+        },
+        "106": {
+            "name": "قريش",
+            "name_en": "Quraysh",
+            "location": "makka",
+            "numberOfAyat": 4
+        },
+        "107": {
+            "name": "الماعون",
+            "name_en": "Al-Ma'un",
+            "location": "makka",
+            "numberOfAyat": 7
+        },
+        "108": {
+            "name": "الكوثر",
+            "name_en": "Al-Kawthar",
+            "location": "makka",
+            "numberOfAyat": 3
+        },
+        "109": {
+            "name": "الكافرون",
+            "name_en": "Al-Kafirun",
+            "location": "makka",
+            "numberOfAyat": 6
+        },
+        "110": {
+            "name": "النصر",
+            "name_en": "An-Nasr",
+            "location": "madina",
+            "numberOfAyat": 3
+        },
+        "111": {
+            "name": "المسد",
+            "name_en": "Al-Masad",
+            "location": "makka",
+            "numberOfAyat": 5
+        },
+        "112": {
+            "name": "الإخلاص",
+            "name_en": "Al-Ikhlas",
+            "location": "makka",
+            "numberOfAyat": 4
+        },
+        "113": {
+            "name": "الفلق",
+            "name_en": "Al-Falaq",
+            "location": "makka",
+            "numberOfAyat": 5
+        },
+        "114": {
+            "name": "الناس",
+            "name_en": "An-Nas",
+            "location": "makka",
+            "numberOfAyat": 6
+        }
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuttab Othman CDN</title>
+</head>
+<body>
+    <h1>Kuttab Othman CDN</h1>
+    <p>Here you will find multiple public annotated Quran mushaf editions.</p>
+    <p>These are the following available mushaf EDITIONS (also found in editions.json) : </p>
+    <ul>
+        <li><strong>Tajweed</strong></li>
+        <li><strong>MedinaOld</strong></li>
+        <li><strong>Warsh1</strong></li>
+    </ul>
+    <p>How to access to quran resources : </p>
+    <ul>
+        <li><strong>Editions Metadata:</strong> editions.json</li>
+        <li><strong>Quran Metadata:</strong> quran.json</li>
+        <li><strong>Mushaf:</strong> {EDITION}/pages/001.png - {EDITION}/pages/604.png</li>
+        <li><strong>Ayat BBoxes:</strong> {EDITION}/book_{EDITION}_bbox.json</li>
+        <li><strong>Ayat BBoxes Reversed:</strong> {EDITION}/book_{EDITION}_bbox_reversed.json</li>
+        <li><strong>Ayat BBoxes Normalized:</strong> {EDITION}/book_{EDITION}_bbox_norm.json</li>
+        <li><strong>Ayat BBoxes Reversed Normalized:</strong> {EDITION}/book_{EDITION}_bbox_reversed_norm.json</li>
+    </ul>
+    <p>The JSON file contains bounding boxes for each ayah, including:</p>
+    <ul>
+        <li>Absolute ayah numbers</li>
+        <li>Page numbers</li>
+        <li>Top, left, bottom, right bbox coordinates</li>
+    </ul>
+
+    <script>
+        export default {
+            async fetch(request) {
+                const response = await fetch(request);
+
+                const newHeaders = new Headers(response.headers);
+                newHeaders.set('Access-Control-Allow-Origin', '*');
+                newHeaders.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
+
+                // Handle preflight
+                if (request.method === 'OPTIONS') {
+                    return new Response(null, { status: 204, headers: newHeaders });
+                }
+
+                return new Response(response.body, {
+                    status: response.status,
+                    headers: newHeaders,
+                });
+            },
+        };
+    </script>
+</body>
+</html>
